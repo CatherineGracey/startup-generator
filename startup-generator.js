@@ -21,7 +21,7 @@ var thatArray = ["Facebook Platform","Erlang Enthusiasts","Ex-Girlfriends",
 function newStartup(){
   var idea = thisArray[Math.floor(Math.random() * thisArray.length)];
   var market = thatArray[Math.floor(Math.random() * thatArray.length)];
-  var suggestion = "We could create the next " + idea + " for " + market + ".";
+  var suggestion = "We could create the next <span>" + idea + "</span> for <span>" + market + "</span>.";
   return suggestion;
 }
 
